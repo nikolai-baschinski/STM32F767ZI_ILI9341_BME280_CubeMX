@@ -132,15 +132,15 @@ void lcd_clear_window(uint16_t Xstart, uint16_t Ystart, uint16_t Xend, uint16_t 
 void lcd_reset()
 {
   lcd_RST_reset();
-  delay(100);
+  HAL_Delay(100);
   lcd_RST_set();
-  delay(100);
+  HAL_Delay(100);
 }
 
 void lcd_init()
 {
   lcd_send_c(0x11); // SLEEP OUT: COMMAND
-  delay(120);
+  HAL_Delay(120);
   lcd_send_c(0xCF); // POWER CONTROL B: COMMAND
   lcd_send_d(0x00); // POWER CONTROL B: DATA
   lcd_send_d(0xC1); // POWER CONTROL B: DATA

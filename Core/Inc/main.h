@@ -83,7 +83,7 @@ void Error_Handler(void);
 #define LCD_RST_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-void delay(uint32_t ms);
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

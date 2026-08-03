@@ -8,8 +8,6 @@ BME280 sensor data (temperature, air pressure, and humidity) displayed on the Wa
 
 ![](Doc/SPI_configuration_CubeMX.png)
 
-![](Doc/Timer2_configuration_CubeMX.png)
-
 ![](Doc/burst.bmp)
 
 
