@@ -1,4 +1,5 @@
 #include "lcd.h"
+#include "GUI_Paint.h"
 #include "main.h"
 
 extern SPI_HandleTypeDef hspi1;

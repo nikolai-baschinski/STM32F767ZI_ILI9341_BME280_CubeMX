@@ -1,7 +1,7 @@
 #ifndef BME_H_
 #define BME_H_
 
-#include "stm32f767xx.h"
+#include "stm32f7xx_hal.h"
 
 struct BME280_for_LCD {
   float temperature;

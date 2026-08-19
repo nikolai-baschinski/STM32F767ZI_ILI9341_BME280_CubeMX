@@ -1,8 +1,6 @@
 #ifndef LCD_H_
 #define LCD_H_
 
-#include "stm32f767xx.h"
-#include "GUI_Paint.h"
 #include "ProcessImage.h"
 
 void init_LCD();
